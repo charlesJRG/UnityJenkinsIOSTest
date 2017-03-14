@@ -1,0 +1,47 @@
+/Library/
+/Temp/
+/Builds
+/PC
+/IOS
+/LocalCache
+
+/*.csproj
+/*.sln
+/*.sdf
+/*.opendb
+/*.unityproj
+
+*.userprefs
+*.suo
+*.user
+obj
+bin
+.vs
+*.DS_Store
+*.mdb
+*.mdb.meta
+
+/Assets/StreamingAssets/build_info.txt.meta
+/Assets/StreamingAssets/build_info.txt
+Assets/Plugins/3rdParty/Stans/IOSDeploy/Scripts/Editor/mod_pbxproj.pyc
+Assets/Plugins/3rdParty/Stans/IOSDeploy/Scripts/Editor/mod_pbxproj.pyc.meta
+
+# Doxygen Documentation Generation
+/Doxyfiles/GeneratedDocumentation/*
+!/Doxyfiles/GeneratedDocumentation/ReadMe.txt
+
+# Generated assets for the opportunity previewer
+Assets/StreamingAssets/generated.html
+Assets/StreamingAssets/generated.html.meta
+/TapjoyXcodeUpdatePostBuild.log
+/AdjustPostBuildAndroidLog.txt
+/AdjustPostBuildiOSLog.txt
+
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
