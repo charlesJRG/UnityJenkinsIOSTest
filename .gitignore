@@ -1,9 +1,9 @@
-/Library/
-/Temp/
-/Builds
-/PC
-/IOS
-/LocalCache
+/JenkinsTestProj/Library/
+/JenkinsTestProj/Temp/
+/JenkinsTestProj/Builds
+/JenkinsTestProj/PC
+/JenkinsTestProj/IOS
+/JenkinsTestProj/LocalCache
 
 /*.csproj
 /*.sln
